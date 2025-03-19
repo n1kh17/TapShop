@@ -1,0 +1,87 @@
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+.btn-circle {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+  }
+  
+  .btn-circle i {
+    position: relative;
+    top: -1px;
+  }
+  
+  .btn-circle-sm {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 0.9rem;
+  }
+  
+  .btn-circle-lg {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 1.1rem;
+  }
+  
+  .btn-circle-xl {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 1.3rem;
+  }
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSES
+  * ==========================================
+  *
+  */
+  
+body {
+  background: #f8f8fd;
+  color: #514B64;
+  min-height: 100vh;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#category{
+  background-color: #d8f6dd;
+}
+
+#categories_text{
+  text-align: center;
+ 
+}
+#categories{
+  // text-align: center;
+  display:inline-block;
+  flex-direction: row;
+  
+}
+// .card{
+//   height: 400px;
+//   padding: 20px;
+//   margin: 40px;
+// }
+// .card img{
+//   width: 250px;
+//   height: 250px;
+//   margin-bottom: 15px;
+//   transition: 0.3 ease-in-out;
+// }
+// .card img.hover{
+//   transition: 0.3 ease-in-out;
+//   transform: scale(1.1);
+// }

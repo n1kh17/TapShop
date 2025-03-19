@@ -1,0 +1,49 @@
+<section style="background-color: grey;" id="profile">
+  <div class="container p-5">
+    <h4 class="display-4">My Profile</h4>
+    <hr>
+    <div class="m-auto" >
+      <!-- <h1 class="text-center display-3 mt-5">
+        <i class="fa fa-spinner fa-spin"></i>
+      </h1> -->
+    </div>
+    <div  class="row mt-5">
+      <div class="col-md-3">
+        <img src="../../assets/Sai_Reddy.JPG" alt="userImage" class="rounded-circle image" width="200" 
+        height="200">
+      </div>
+      <div class="col-md-8 ml-3">
+        <p id="name" class="lead">{{name}}</p>
+        <a (click)=orders() class="btn btn-warning">My orders</a>
+        <br>
+        <br>
+        <a (click)=changeAccountSettings() class="btn btn-warning">Change Account Settings</a>
+        <br>
+        <br>
+        <a (click)=changeShippingAddress() class="btn btn-warning">Change Shipping Address</a>
+        <br>
+        <br>
+        <!-- <br>
+        <a *ngIf="authenticationService.CurrentUser.data.isadmin" class="btn btn-warning">Manage Products</a>
+        <br>
+        <br>
+        <a *ngIf="authenticationService.CurrentUser.data.isadmin" class="btn btn-warning">Manage users</a>
+        <br> -->
+        <div >
+          <p class="lead">Freelance Delivery Actions</p>
+          <hr>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <a routerLink="/profile/postproduct" class="btn btn-outline-success btn-block">Make a delivery</a>
+            </div>
+            <div class="col-md-6">
+              <a routerLink="/profile/myproducts" class="btn btn-outline-info btn-block">My deliveries</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+</section>
+<app-footer></app-footer>
