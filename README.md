@@ -73,15 +73,7 @@ Step 3: Arrange the files according to the file paths given below
     - Users.db
   
   
-## Team Members
-### BackEnd
-Venkata Nithin Kamineni: vkamineni@ufl.edu github - Nithin-Kamineni
 
-Saieswar Reddy Vaka: vaka.s@ufl.edu github - sai6221
-### FrontEnd
-Vamsi Pachamatla: vamsi.pachamatla@ufl.edu github - vamsi3379
-
-Mattaparthi Nitish Veera: nitish.veera@ufl.edu github - VeeraNitish7
 
 ### Deployment of the frontendapp of the application is [frontend peekNShop](https://ubiquitous-biscochitos-d3a939.netlify.app)
 ### Deployment of the backend of the application is [backend peekNShop](https://git.heroku.com/pure-temple-70794.git)
