@@ -41,6 +41,4 @@ Step 3: Arrange the files according to the file paths given below
   
 
 
-### Deployment of the frontendapp of the application is [frontend](https://ubiquitous-biscochitos-d3a939.netlify.app)
-### Deployment of the backend of the application is [backend](https://git.heroku.com/pure-temple-70794.git)
 
